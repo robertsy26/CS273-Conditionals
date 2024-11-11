@@ -1,0 +1,34 @@
+#BlueJ class context
+comment0.target=Lab4BaseArea
+comment0.text=\r\n\ class\ Lab4BaseArea\ --\ a\ panel\ for\ drawing\ a\ robot,\ suitable\ for\r\n\ subclassing\r\n\r\n\ @author\ Steven\ R.\ Vegdahl\r\n\ @version\ 2\ Feb\ 2019\r\n
+comment1.params=
+comment1.target=Lab4BaseArea()
+comment1.text=\r\n\ constructor\r\n
+comment10.params=x\ y
+comment10.target=void\ translateAll(int,\ int)
+comment10.text=\r\n\ translateAll\ --\ translates\ all\ our\ polygons\ by\ the\ given\ amount\r\n\ \r\n\ @param\ x\ the\ x-delta\r\n\ @param\ y\ the\ y-delta\r\n
+comment2.params=f
+comment2.target=void\ setFrame(Lab4Frame)
+comment2.text=\r\n\ setFrame\ --\ lets\ us\ know\ who\ our\ frame\ is\r\n
+comment3.params=s
+comment3.target=boolean\ isChecked(java.lang.String)
+comment3.text=\r\n\ isChecked\ --\ tells\ whether\ a\ checkbox\ is\ checked\r\n\ \r\n\ @param\ s\ the\ string\ that\ names\ the\ checkbox\r\n\ @return\ true\ if\ that\ checkbox\ is\ checked\r\n
+comment4.params=
+comment4.target=boolean\ whistleMoreRecent()
+comment4.text=\r\n\ whistleMoreRecent\ --\ tells\ whether\ 'whistle'\ was\ checked\ more\ recently\ than\r\n\ 'frown'\r\n\ \r\n\ @return\ true\ if\ 'whistle'\ was\ checked\ more\ recently\r\n
+comment5.params=
+comment5.target=int\ totalNumChecked()
+comment5.text=\r\n\ totalNumChecked\ --\ the\ total\ number\ of\ check-boxes\ that\ are\ checked\r\n\ \r\n\ @return\ the\ total\ number\ of\ checkboxes\ that\ are\ checked\r\n
+comment6.params=
+comment6.target=void\ repaint()
+comment6.text=\r\n\ repaint\ --\ repaints\ the\ visible\ area\r\n
+comment7.params=
+comment7.target=void\ init()
+comment7.text=\r\n\ init\ \=\ initialized\ all\ our\ polygons\r\n
+comment8.params=p\ p2\ val
+comment8.target=void\ reflectX(java.awt.Polygon,\ java.awt.Polygon,\ int)
+comment8.text=\r\n\ reflectX\ --\ add\ points\ to\ a\ polygon\ based\ on\ reflecting\ from\ another\ polygon\r\n\ horizontally\r\n\ \r\n\ @param\ p\ the\ original\ polygon\r\n\ @param\ p2\ the\ empty\ polygon\ to\ which\ points\ will\ be\ added\r\n\ @param\ val\ the\ reflection\ position\r\n
+comment9.params=p\ p2\ val
+comment9.target=void\ reflectY(java.awt.Polygon,\ java.awt.Polygon,\ int)
+comment9.text=\r\n\ reflectY\ --\ add\ points\ to\ a\ polygon\ based\ on\ reflecting\ from\ another\ polygon\r\n\ vertically\r\n\ \r\n\ @param\ p\ the\ original\ polygon\r\n\ @param\ p2\ the\ empty\ polygon\ to\ which\ points\ will\ be\ added\r\n\ @param\ val\ the\ reflection\ position\r\n
+numComments=11

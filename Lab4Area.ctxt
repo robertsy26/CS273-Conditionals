@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Lab4Area
+comment0.text=\r\n\ class\ Lab4Area\ -\ draws\ a\ robot\ whose\ appearance\ is\ customized\ based\r\n\ on\ which\ boxes\ are\ checked.\r\n
+comment1.params=g
+comment1.target=void\ paint(java.awt.Graphics)
+comment1.text=\r\n\ Keep\ in\ mind\ that\ when\ a\ box\ is\ checked\ or\r\n\ uncheck,\ it\ calls\ the\ paint\ method\ every\r\n\ time.\ This\ means\ that\ for\ print\ method\ calls\r\n\ in\ the\ if-statements\ will\ be\ called\ every\r\n\ time\ a\ box\ is\ checked/unchecked.\r\n
+numComments=2

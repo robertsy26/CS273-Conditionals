@@ -21,6 +21,14 @@ public class Lab4Area extends Lab4BaseArea {
     // bugs/anomalies:
     //   (none known)
     ////////////////////////////////////////////////////////////
+    
+    /*
+     * Keep in mind that when a box is checked or
+     * uncheck, it calls the paint method every
+     * time. This means that for print method calls
+     * in the if-statements will be called every
+     * time a box is checked/unchecked.
+     */
 
     public void paint(Graphics g) {
         // draw the robot's body (silver, for now)

@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Lab4Frame
+comment0.text=\r\n\ class\ Lab4Frame\ -\ defines\ the\ GUI\ for\ the\ CS\ 273\ Lab\ 4\ exercises\r\n\ @author\ Steven\ R.\ Vegdahl\r\n\ @version\ 2\ Feb\ 2019\r\n
+comment1.params=a
+comment1.target=Lab4Frame(Lab4BaseArea)
+comment1.text=\ \r\n\ constructor\r\n\ \r\n\ @param\ a\ the\ Lab4BaseArea\ object\ that\ paints\ the\ robot\r\n
+comment2.params=
+comment2.target=void\ init()
+comment2.text=\r\n\ init\ -\ initializes\ our\ frame\r\n
+comment3.params=label
+comment3.target=javax.swing.JCheckBox\ createJCheckBox(java.lang.String)
+comment4.params=str
+comment4.target=boolean\ isChecked(java.lang.String)
+comment4.text=\r\n\ isChecked\ -\ tells\ whether\ a\ particular\ checkbox\ is\ checked\r\n\r\n\ @param\ str\ the\ string\ whose\ checkbox-label\ we're\ trying\ to\ match\r\n\ @return\ true\ if\ we\ found\ a\ match\ that\ was\ checked\r\n
+comment5.params=
+comment5.target=int\ totalNumChecked()
+comment5.text=\r\n\ totalNumChecked\ -\ the\ total\ number\ of\ check-boxes\ that\ are\ checked\r\n\r\n\ @return\ the\ number\ of\ our\ check-boxes\ that\ are\ checked\r\n
+comment6.params=ie
+comment6.target=void\ itemStateChanged(java.awt.event.ItemEvent)
+comment6.text=\r\n\ itemStateChanged\ --\ callback-method,\ called\ whenever\ a\ checkbox\ is\ checked\ or\ unchecked\r\n\ \r\n\ @param\ ie\ the\ item-event\r\n
+comment7.params=
+comment7.target=boolean\ whistleMoreRecent()
+comment7.text=\r\n\ whistleMoreRecent\ --\ tells\ whether\ a\ the\ 'whistle'\ check-box\ was\ checked\ more\ recently\r\n\ than\ the\ 'frown'\ one\r\n\ \r\n\ @return\ true\ iff\ whistle\ was\ checked\ more\ recently\ than\ 'frown'\r\n
+numComments=8
