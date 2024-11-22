@@ -24,10 +24,30 @@ public class Lab4Area extends Lab4BaseArea {
     
     /*
      * Keep in mind that when a box is checked or
-     * uncheck, it calls the paint method every
-     * time. This means that for print method calls
-     * in the if-statements will be called every
-     * time a box is checked/unchecked.
+     * uncheck in the main program, it calls the paint method every
+     * time. This means that every print method call
+     * in the added if-statements for this lab
+     * will be called every time a box is checked/unchecked
+     * in the main program.
+     */
+    
+    /*
+     * Importance:
+     * 
+     * It's important for students to know this so they
+     * understand that the paint method is called
+     * multiple times during the program if the user
+     * checks/unchecks many boxes.
+     */
+    
+    /*
+     * Justification:
+     * 
+     * By placing this piece of the information, the student will
+     * learn about the when the paint method is called as soon
+     * as they open this file for the first time. By elaborating on
+     * specifically the print method calls in the if-statements, the
+     * students will know exactly when to recall the above comments.
      */
 
     public void paint(Graphics g) {
