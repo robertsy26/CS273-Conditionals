@@ -3,5 +3,5 @@ comment0.target=Lab4Area
 comment0.text=\r\n\ class\ Lab4Area\ -\ draws\ a\ robot\ whose\ appearance\ is\ customized\ based\r\n\ on\ which\ boxes\ are\ checked.\r\n
 comment1.params=g
 comment1.target=void\ paint(java.awt.Graphics)
-comment1.text=\r\n\ Justification\:\r\n\ \r\n\ By\ placing\ this\ piece\ of\ the\ information,\ the\ student\ will\r\n\ learn\ about\ the\ when\ the\ paint\ method\ is\ called\ as\ soon\r\n\ as\ they\ open\ this\ file\ for\ the\ first\ time.\r\n
+comment1.text=\r\n\ Justification\:\r\n\ \r\n\ By\ placing\ this\ piece\ of\ the\ information,\ the\ student\ will\r\n\ learn\ about\ the\ when\ the\ paint\ method\ is\ called\ as\ soon\r\n\ as\ they\ open\ this\ file\ for\ the\ first\ time.\ By\ elaborating\ on\r\n\ specifically\ the\ print\ method\ calls\ in\ the\ if-statements,\ the\r\n\ students\ will\ know\ exactly\ when\ to\ recall\ the\ above\ comments.\r\n
 numComments=2
